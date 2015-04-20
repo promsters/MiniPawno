@@ -1,0 +1,578 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:38:03] 
+[15:38:03] Server Plugins
+[15:38:03] --------------
+[15:38:03]  Loading plugin: crashdetect
+[15:38:03]   CrashDetect v4.15.1 is OK.
+[15:38:03]   Loaded.
+[15:38:03]  Loading plugin: CTime
+[15:38:03]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:38:03]   Loaded.
+[15:38:03]  Loading plugin: mysql
+[15:38:04]  >> plugin.mysql: R39-3 successfully loaded.
+[15:38:04]   Loaded.
+[15:38:04]  Loading plugin: sscanf
+[15:38:04] 
+
+[15:38:04]  ===============================
+
+[15:38:04]       sscanf plugin loaded.     
+
+[15:38:04]          Version:  2.8.1        
+
+[15:38:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:38:04]  ===============================
+
+[15:38:04]   Loaded.
+[15:38:04]  Loading plugin: streamer
+[15:38:04] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:38:04]   Loaded.
+[15:38:04]  Loaded 5 plugins.
+
+[15:38:04] 
+[15:38:04] Filterscripts
+[15:38:04] ---------------
+[15:38:04]   Loaded 0 filterscripts.
+
+[15:38:04]  
+[15:38:04]  
+[15:38:04]  
+[15:38:04]  ======================================= 
+[15:38:04]  |                                     | 
+[15:38:04]  |        YSI version 4.00.0001        | 
+[15:38:04]  |        By Alex "Y_Less" Cole        | 
+[15:38:04]  |                                     | 
+[15:38:04]  ======================================= 
+[15:38:04]  
+[15:38:04] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 1 ms]
+[15:38:04] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 1 ms]
+[15:38:04] [debug] Run time error 1: "Forced exit"
+[15:38:04] [debug] AMX backtrace:
+[15:38:04] [debug] #0 0003374c in public zcmd_OnGameModeInit () from minipawno.amx
+[15:38:04] [debug] #1 native CallLocalFunction () from samp-server.exe
+[15:38:04] [debug] #2 00032c98 in public Iter_OnGameModeInit () from minipawno.amx
+[15:38:04] [debug] #3 native CallLocalFunction () from samp-server.exe
+[15:38:04] [debug] #4 00012098 in public ScriptInit_OnGameModeInit () from minipawno.amx
+[15:38:04] [debug] #5 0000ac14 in public SSCANF_OnGameModeInit () from minipawno.amx
+[15:38:04] [debug] #6 00003fb0 in public FIXES_OnGameModeInit () from minipawno.amx
+[15:38:04] [debug] #7 000004f0 in public OnPlayerConnect () from minipawno.amx
+[15:38:04] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:38:41] 
+[15:38:41] Server Plugins
+[15:38:41] --------------
+[15:38:41]  Loading plugin: crashdetect
+[15:38:41]   CrashDetect v4.15.1 is OK.
+[15:38:41]   Loaded.
+[15:38:41]  Loading plugin: CTime
+[15:38:41]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:38:41]   Loaded.
+[15:38:41]  Loading plugin: mysql
+[15:38:41]  >> plugin.mysql: R39-3 successfully loaded.
+[15:38:41]   Loaded.
+[15:38:41]  Loading plugin: sscanf
+[15:38:41] 
+
+[15:38:41]  ===============================
+
+[15:38:41]       sscanf plugin loaded.     
+
+[15:38:41]          Version:  2.8.1        
+
+[15:38:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:38:41]  ===============================
+
+[15:38:41]   Loaded.
+[15:38:41]  Loading plugin: streamer
+[15:38:41] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:38:41]   Loaded.
+[15:38:41]  Loaded 5 plugins.
+
+[15:38:41] 
+[15:38:41] Filterscripts
+[15:38:41] ---------------
+[15:38:41]   Loaded 0 filterscripts.
+
+[15:38:41]  
+[15:38:41]  
+[15:38:41]  
+[15:38:41]  ======================================= 
+[15:38:41]  |                                     | 
+[15:38:41]  |        YSI version 4.00.0001        | 
+[15:38:41]  |        By Alex "Y_Less" Cole        | 
+[15:38:41]  |                                     | 
+[15:38:41]  ======================================= 
+[15:38:41]  
+[15:38:41] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 4 ms]
+[15:38:42] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 222 ms]
+[15:38:42] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:40:10] 
+[15:40:10] Server Plugins
+[15:40:10] --------------
+[15:40:10]  Loading plugin: crashdetect
+[15:40:10]   CrashDetect v4.15.1 is OK.
+[15:40:10]   Loaded.
+[15:40:10]  Loading plugin: CTime
+[15:40:10]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:40:10]   Loaded.
+[15:40:10]  Loading plugin: mysql
+[15:40:10]  >> plugin.mysql: R39-3 successfully loaded.
+[15:40:10]   Loaded.
+[15:40:10]  Loading plugin: sscanf
+[15:40:10] 
+
+[15:40:10]  ===============================
+
+[15:40:10]       sscanf plugin loaded.     
+
+[15:40:10]          Version:  2.8.1        
+
+[15:40:10]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:40:10]  ===============================
+
+[15:40:10]   Loaded.
+[15:40:10]  Loading plugin: streamer
+[15:40:10] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:40:10]   Loaded.
+[15:40:10]  Loaded 5 plugins.
+
+[15:40:10] 
+[15:40:10] Filterscripts
+[15:40:10] ---------------
+[15:40:10]   Loaded 0 filterscripts.
+
+[15:40:10]  
+[15:40:10]  
+[15:40:10]  
+[15:40:10]  ======================================= 
+[15:40:10]  |                                     | 
+[15:40:10]  |        YSI version 4.00.0001        | 
+[15:40:10]  |        By Alex "Y_Less" Cole        | 
+[15:40:10]  |                                     | 
+[15:40:10]  ======================================= 
+[15:40:10]  
+[15:40:10] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 1 ms]
+[15:40:10] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 13 ms]
+[15:40:10] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:40:18] 
+[15:40:18] Server Plugins
+[15:40:18] --------------
+[15:40:18]  Loading plugin: crashdetect
+[15:40:18]   CrashDetect v4.15.1 is OK.
+[15:40:18]   Loaded.
+[15:40:18]  Loading plugin: CTime
+[15:40:18]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:40:18]   Loaded.
+[15:40:18]  Loading plugin: mysql
+[15:40:18]  >> plugin.mysql: R39-3 successfully loaded.
+[15:40:18]   Loaded.
+[15:40:18]  Loading plugin: sscanf
+[15:40:18] 
+
+[15:40:18]  ===============================
+
+[15:40:18]       sscanf plugin loaded.     
+
+[15:40:18]          Version:  2.8.1        
+
+[15:40:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:40:18]  ===============================
+
+[15:40:18]   Loaded.
+[15:40:18]  Loading plugin: streamer
+[15:40:18] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:40:18]   Loaded.
+[15:40:18]  Loaded 5 plugins.
+
+[15:40:18] 
+[15:40:18] Filterscripts
+[15:40:18] ---------------
+[15:40:18]   Loaded 0 filterscripts.
+
+[15:40:18]  
+[15:40:18]  
+[15:40:18]  
+[15:40:18]  ======================================= 
+[15:40:18]  |                                     | 
+[15:40:18]  |        YSI version 4.00.0001        | 
+[15:40:18]  |        By Alex "Y_Less" Cole        | 
+[15:40:18]  |                                     | 
+[15:40:18]  ======================================= 
+[15:40:18]  
+[15:40:18] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 0 ms]
+[15:40:18] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 3 ms]
+[15:40:18] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:40:35] 
+[15:40:35] Server Plugins
+[15:40:35] --------------
+[15:40:35]  Loading plugin: crashdetect
+[15:40:35]   CrashDetect v4.15.1 is OK.
+[15:40:35]   Loaded.
+[15:40:35]  Loading plugin: CTime
+[15:40:35]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:40:35]   Loaded.
+[15:40:35]  Loading plugin: mysql
+[15:40:35]  >> plugin.mysql: R39-3 successfully loaded.
+[15:40:35]   Loaded.
+[15:40:35]  Loading plugin: sscanf
+[15:40:35] 
+
+[15:40:35]  ===============================
+
+[15:40:35]       sscanf plugin loaded.     
+
+[15:40:35]          Version:  2.8.1        
+
+[15:40:35]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:40:35]  ===============================
+
+[15:40:35]   Loaded.
+[15:40:35]  Loading plugin: streamer
+[15:40:35] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:40:35]   Loaded.
+[15:40:35]  Loaded 5 plugins.
+
+[15:40:35] 
+[15:40:35] Filterscripts
+[15:40:35] ---------------
+[15:40:35]   Loaded 0 filterscripts.
+
+[15:40:35]  
+[15:40:35]  
+[15:40:35]  
+[15:40:35]  ======================================= 
+[15:40:35]  |                                     | 
+[15:40:35]  |        YSI version 4.00.0001        | 
+[15:40:35]  |        By Alex "Y_Less" Cole        | 
+[15:40:35]  |                                     | 
+[15:40:35]  ======================================= 
+[15:40:35]  
+[15:40:35] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 0 ms]
+[15:40:35] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 3 ms]
+[15:40:35] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:41:28] 
+[15:41:28] Server Plugins
+[15:41:28] --------------
+[15:41:28]  Loading plugin: crashdetect
+[15:41:28]   CrashDetect v4.15.1 is OK.
+[15:41:28]   Loaded.
+[15:41:28]  Loading plugin: CTime
+[15:41:28]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:41:28]   Loaded.
+[15:41:28]  Loading plugin: mysql
+[15:41:28]  >> plugin.mysql: R39-3 successfully loaded.
+[15:41:28]   Loaded.
+[15:41:28]  Loading plugin: sscanf
+[15:41:28] 
+
+[15:41:28]  ===============================
+
+[15:41:28]       sscanf plugin loaded.     
+
+[15:41:28]          Version:  2.8.1        
+
+[15:41:28]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:41:28]  ===============================
+
+[15:41:28]   Loaded.
+[15:41:28]  Loading plugin: streamer
+[15:41:28] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:41:28]   Loaded.
+[15:41:28]  Loaded 5 plugins.
+
+[15:41:28] 
+[15:41:28] Filterscripts
+[15:41:28] ---------------
+[15:41:28]   Loaded 0 filterscripts.
+
+[15:41:28]  
+[15:41:28]  
+[15:41:28]  
+[15:41:28]  ======================================= 
+[15:41:28]  |                                     | 
+[15:41:28]  |        YSI version 4.00.0001        | 
+[15:41:28]  |        By Alex "Y_Less" Cole        | 
+[15:41:28]  |                                     | 
+[15:41:28]  ======================================= 
+[15:41:28]  
+[15:41:28] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 1 ms]
+[15:41:28] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 3 ms]
+[15:41:28] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:41:51] 
+[15:41:51] Server Plugins
+[15:41:51] --------------
+[15:41:51]  Loading plugin: crashdetect
+[15:41:51]   CrashDetect v4.15.1 is OK.
+[15:41:51]   Loaded.
+[15:41:51]  Loading plugin: CTime
+[15:41:51]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:41:51]   Loaded.
+[15:41:51]  Loading plugin: mysql
+[15:41:51]  >> plugin.mysql: R39-3 successfully loaded.
+[15:41:51]   Loaded.
+[15:41:51]  Loading plugin: sscanf
+[15:41:51] 
+
+[15:41:51]  ===============================
+
+[15:41:51]       sscanf plugin loaded.     
+
+[15:41:51]          Version:  2.8.1        
+
+[15:41:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:41:51]  ===============================
+
+[15:41:51]   Loaded.
+[15:41:51]  Loading plugin: streamer
+[15:41:51] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:41:51]   Loaded.
+[15:41:51]  Loaded 5 plugins.
+
+[15:41:51] 
+[15:41:51] Filterscripts
+[15:41:51] ---------------
+[15:41:51]   Loaded 0 filterscripts.
+
+[15:41:51]  
+[15:41:51]  
+[15:41:51]  
+[15:41:51]  ======================================= 
+[15:41:51]  |                                     | 
+[15:41:51]  |        YSI version 4.00.0001        | 
+[15:41:51]  |        By Alex "Y_Less" Cole        | 
+[15:41:51]  |                                     | 
+[15:41:51]  ======================================= 
+[15:41:51]  
+[15:41:51] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 0 ms]
+[15:41:51] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 3 ms]
+[15:41:51] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:42:43] 
+[15:42:43] Server Plugins
+[15:42:43] --------------
+[15:42:43]  Loading plugin: crashdetect
+[15:42:43]   CrashDetect v4.15.1 is OK.
+[15:42:43]   Loaded.
+[15:42:43]  Loading plugin: CTime
+[15:42:43]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:42:43]   Loaded.
+[15:42:43]  Loading plugin: mysql
+[15:42:43]  >> plugin.mysql: R39-3 successfully loaded.
+[15:42:43]   Loaded.
+[15:42:43]  Loading plugin: sscanf
+[15:42:43] 
+
+[15:42:43]  ===============================
+
+[15:42:43]       sscanf plugin loaded.     
+
+[15:42:43]          Version:  2.8.1        
+
+[15:42:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:42:43]  ===============================
+
+[15:42:43]   Loaded.
+[15:42:43]  Loading plugin: streamer
+[15:42:43] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:42:43]   Loaded.
+[15:42:43]  Loaded 5 plugins.
+
+[15:42:43] 
+[15:42:43] Filterscripts
+[15:42:43] ---------------
+[15:42:43]   Loaded 0 filterscripts.
+
+[15:42:43]  
+[15:42:43]  
+[15:42:43]  
+[15:42:43]  ======================================= 
+[15:42:43]  |                                     | 
+[15:42:43]  |        YSI version 4.00.0001        | 
+[15:42:43]  |        By Alex "Y_Less" Cole        | 
+[15:42:43]  |                                     | 
+[15:42:43]  ======================================= 
+[15:42:43]  
+[15:42:43] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 1 ms]
+[15:42:43] [MiniPawno] B³¹d po³¹czenia z baz¹ danych [czas trwania: 4 ms]
+[15:42:43] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-RC4-2, (C)2005-2015 SA-MP Team
+
+[15:44:07] 
+[15:44:07] Server Plugins
+[15:44:07] --------------
+[15:44:07]  Loading plugin: crashdetect
+[15:44:07]   CrashDetect v4.15.1 is OK.
+[15:44:07]   Loaded.
+[15:44:07]  Loading plugin: CTime
+[15:44:07]  
+ » CTime Library Plugin For Pawn v0.1.0 - Copyright © 2011 RyDeR` 
+ 
+[15:44:07]   Loaded.
+[15:44:07]  Loading plugin: mysql
+[15:44:07]  >> plugin.mysql: R39-3 successfully loaded.
+[15:44:07]   Loaded.
+[15:44:07]  Loading plugin: sscanf
+[15:44:07] 
+
+[15:44:07]  ===============================
+
+[15:44:07]       sscanf plugin loaded.     
+
+[15:44:07]          Version:  2.8.1        
+
+[15:44:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:44:07]  ===============================
+
+[15:44:07]   Loaded.
+[15:44:07]  Loading plugin: streamer
+[15:44:07] 
+
+*** Streamer Plugin v2.7.5.2 by Incognito loaded ***
+
+[15:44:07]   Loaded.
+[15:44:07]  Loaded 5 plugins.
+
+[15:44:07] 
+[15:44:07] Filterscripts
+[15:44:07] ---------------
+[15:44:07]   Loaded 0 filterscripts.
+
+[15:44:07]  
+[15:44:07]  
+[15:44:07]  
+[15:44:07]  ======================================= 
+[15:44:07]  |                                     | 
+[15:44:07]  |        YSI version 4.00.0001        | 
+[15:44:07]  |        By Alex "Y_Less" Cole        | 
+[15:44:07]  |                                     | 
+[15:44:07]  ======================================= 
+[15:44:07]  
+[15:44:07] [MiniPawno] Wczytano konfiguracjê serwera [czas wykonania: 1 ms]
+[15:44:07] [MiniPawno] Po³¹czano z baz¹ danych samp@127.0.0.1 [czas trwania: 5 ms]
+[15:44:07] [MiniPawno] MP Gamemode v0.1 zostal wczytany pomyslnie [czas wykonania: 6 ms]
+[15:44:07] Number of vehicle models: 0

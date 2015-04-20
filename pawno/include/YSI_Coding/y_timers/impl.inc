@@ -81,7 +81,7 @@ hook OnScriptInit()
 	P:1("hook Timers_OnScriptInit called");
 	new
 		pointer,
-		time,
+		ttime,
 		idx,
 		entry;
 	while ((idx = AMX_GetPublicEntryPrefix(idx, entry, _A<@yT_>)))
@@ -103,10 +103,10 @@ hook OnScriptInit()
 		#emit PUSH.pri
 		#emit LOAD.S.pri pointer
 		#emit SCTRL      6
-		#emit STOR.S.pri time
+		#emit STOR.S.pri ttime
 		//YSI_g_sCurFunc = 0;
-		P:7("Timer_OnScriptInit: time: %d", time);
-		if (time != -1)
+		P:7("Timer_OnScriptInit: time: %d", ttime);
+		if (ttime != -1)
 		{
 			// Find all the functions with the same time.  This is less
 			// efficient than previous implementations (it is O(N^2)), but also
@@ -132,7 +132,7 @@ hook OnScriptInit()
 				#emit STOR.S.pri time2
 				// Check if the new time is a FACTOR, SAME, or MULTIPLE of this
 				// task, so we don't start different timers together.
-				if (time2 == time || time / time2 * time2 == time || time2 / time * time == time2)
+				if (time2 == ttime || ttime / time2 * time2 == ttime || time2 / ttime * ttime == time2)
 				{
 					++total;
 					if (idx2 < idx)
@@ -141,7 +141,7 @@ hook OnScriptInit()
 					}
 				}
 			}
-			P:7("Timer_OnScriptInit: total: %d, time: %d, pre: %d", total, time, pre);
+			P:7("Timer_OnScriptInit: total: %d, time: %d, pre: %d", total, ttime, pre);
 			// Now we know what time this function has, how many others have
 			// that time and how many have already been started.
 			new
@@ -153,7 +153,7 @@ hook OnScriptInit()
 			P:7("Timer_OnScriptInit: %s", unpack(buffer));
 			// Get the time offset for the current call.  This should mean that
 			// all the functions are nicely spread out.
-			SetTimerEx(buffer, time * pre / total, 0, "ii", 1, -1);
+			SetTimerEx(buffer, ttime * pre / total, 0, "ii", 1, -1);
 		}
 	}
 	P:1("hook Timers_OnScriptInit ended");

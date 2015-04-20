@@ -1,0 +1,106 @@
+[15:38:04] [DEBUG] mysql_connect - host: "(null)", user: "(null)", database: "(null)", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:38:04] [ERROR] mysql_connect - empty connection data specified
+[15:38:04] [DEBUG] mysql_errno - connection: 0
+[15:38:04] [ERROR] mysql_errno - invalid connection handle (id: 0)
+[15:38:41] [DEBUG] mysql_connect - host: "127.0.0.1", user: "admin", database: "red", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:38:41] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:38:41] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:38:41] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:38:41] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:38:42] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'admin'@'localhost' (using password: YES)
+[15:38:42] [DEBUG] mysql_errno - connection: 1
+[15:38:42] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:38:42] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:38:42] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:38:42] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'admin'@'localhost' (using password: YES)
+[15:38:42] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'admin'@'localhost' (using password: YES)
+[15:38:42] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'admin'@'localhost' (using password: YES)
+[15:40:10] [DEBUG] mysql_connect - host: "127.0.0.1", user: "pawno", database: "minipawno", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:40:10] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:40:10] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:40:10] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:40:10] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:10] [DEBUG] mysql_errno - connection: 1
+[15:40:10] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:10] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:18] [DEBUG] mysql_connect - host: "127.0.0.1", user: "pawno", database: "minipawno", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:40:18] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:40:18] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:40:18] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:40:18] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:18] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:18] [DEBUG] mysql_errno - connection: 1
+[15:40:18] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:18] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:18] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:18] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:18] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:35] [DEBUG] mysql_connect - host: "127.0.0.1", user: "pawno", database: "minipawno", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:40:35] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:40:35] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:40:35] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:40:35] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:35] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:35] [DEBUG] mysql_errno - connection: 1
+[15:40:35] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:35] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:40:35] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:35] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:40:35] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:28] [DEBUG] mysql_connect - host: "127.0.0.1", user: "pawno", database: "minipawno", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:41:28] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:41:28] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:41:28] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:41:28] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:28] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:28] [DEBUG] mysql_errno - connection: 1
+[15:41:28] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:28] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:28] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:28] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:28] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:51] [DEBUG] mysql_connect - host: "127.0.0.1", user: "pawno", database: "zxcv1234", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:41:51] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:41:51] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:41:51] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:41:51] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:51] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:51] [DEBUG] mysql_errno - connection: 1
+[15:41:51] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:51] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:51] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:41:51] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:51] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:41:51] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:42:43] [DEBUG] mysql_connect - host: "127.0.0.1", user: "pawno", database: "minipawno", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:42:43] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:42:43] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:42:43] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:42:43] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:42:43] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:42:43] [DEBUG] mysql_errno - connection: 1
+[15:42:43] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:42:43] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:42:43] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:42:43] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:42:43] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'pawno'@'localhost' (using password: YES)
+[15:44:07] [DEBUG] mysql_connect - host: "127.0.0.1", user: "samp", database: "minipawno", password: "****", port: 3306, autoreconnect: true, pool_size: 2
+[15:44:07] [DEBUG] CMySQLHandle::Create - creating new connection..
+[15:44:07] [DEBUG] CMySQLHandle::CMySQLHandle - constructor called
+[15:44:07] [DEBUG] CMySQLHandle::Create - connection created (id: 1)
+[15:44:07] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:44:07] [DEBUG] CMySQLConnection::Connect - connection was successful
+[15:44:07] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[15:44:07] [DEBUG] mysql_errno - connection: 1
+[15:44:07] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:44:07] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:44:07] [DEBUG] CMySQLConnection::Connect - establishing connection to database...
+[15:44:07] [DEBUG] CMySQLConnection::Connect - connection was successful
+[15:44:07] [DEBUG] CMySQLConnection::Connect - connection was successful
+[15:44:07] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[15:44:07] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled
+[15:44:07] [DEBUG] CMySQLConnection::Connect - auto-reconnect has been enabled

@@ -114,8 +114,12 @@ static stock __COMPILER_SECOND_PASS() {}
 	#error YSI does not yet support PAWN 2.0/1.0
 #endif
 
-#if defined __compat && !__compat
-	#define AUTO_INCLUDE_GUARD 0
+#if defined __compat
+	#if __compat == 0
+		#define AUTO_INCLUDE_GUARD 0
+	#else
+		#define AUTO_INCLUDE_GUARD 1
+	#endif
 #else
 	#define AUTO_INCLUDE_GUARD 1
 #endif
